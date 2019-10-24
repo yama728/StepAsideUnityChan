@@ -164,22 +164,4 @@ public class UnityChanController : MonoBehaviour {
 		this.isRButtonDown = false;
 	}
 
-    void OnBecameInvisible()
-    {
-        if (this.gameObject.tag == "CoinTag")
-        {
-            Destroy(this.gameObject);
-        }
-
-        if (this.gameObject.tag == "CarTag")
-        {
-            Destroy(this.gameObject);
-        }
-
-        if (this.gameObject.tag == "TrafficConeTag")
-        {
-            Destroy(this.gameObject);
-        }
-    }
-
 }
